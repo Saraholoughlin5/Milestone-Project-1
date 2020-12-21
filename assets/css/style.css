@@ -6,16 +6,17 @@ body {
 
 
 /* ----- Special padding and margins ----- */
+
 .callout-container {
-  height: 100vh;
-  background: url("../images/home.jpg") no-repeat bottom center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 100vh;
+    background: url("../images/home.jpg") no-repeat bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 	position: relative;
 }
 
@@ -71,18 +72,15 @@ body {
 
 .zoom-social:hover {
 	transform: scale(1.3); 
-	
 }
 
 /* ----- Navbar ----- */
 
 .navbar {
-
 	font-size: 24px;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 	margin-right: 15px;
-	
 }	
 	
 .nav {
@@ -94,8 +92,6 @@ body {
     margin-bottom: 10px;
     border: 0;
     width: 100%;
-	
-	
 }
 
 .navbar-nav li {
@@ -127,6 +123,7 @@ body {
 /* ----- Content Containers ----- */
 
 /* ----- Jumbotron ----- */
+
 /* ----- Buttons ----- */
 
 .btn-primary {
@@ -224,18 +221,18 @@ footer {
 }
 
 
-
-
 .footer-space {
 	margin-top: -15px;
 }
 
 /* ----- Social Media ----- */
+
 /* ----- Images ----- */
 
 .center-image {
 	text-align: center;
 }
+
 .event-images {
 	height: 200px;
 	width: 200px;
@@ -251,11 +248,11 @@ footer {
     border-width: 2px;
     border-radius: 50%;
     margin:0 auto;
-
 }
  
  
 /* ----- Newsletter ----- */
+
 /* ----- Media Queries ----- */
 
 @media(max-width: 768px) {
@@ -276,41 +273,33 @@ footer {
 	.alert {
 		font-size: 13px;
 	}
-	
 	.btn-primary {
 		display: none;
 	}
-	
 	.navbar-nav li {
 		margin: 5px;
 		font-size: 60%;
 	}
-    
     .jumbotron-second-header {
 		font-size: 16px;
 	}
-
 	.footer-space {
 		margin-bottom: 30px;
 	}
-	
 }
 
 @media(min-width: 768px) {
 	.alert-link {
 		display: none;
 	}
-
 }
 
 @media(max-height: 380px) {
 	.jumbotron-header {
 		font-size: 44px;
 	}
-
 	.jumbotron-second-header {
 		font-size: 18px;
 	}
-	
 }
 
