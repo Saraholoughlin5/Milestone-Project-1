@@ -1,0 +1,316 @@
+/* ----- Colors ----- */
+
+body {
+	background-color: #fafafa;
+}
+
+
+/* ----- Special padding and margins ----- */
+.callout-container {
+  height: 100vh;
+  background: url("../images/home.jpg") no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	position: relative;
+}
+
+.alert {
+	margin-bottom: 20px;
+	background: #e9ff70;
+	border: #e9ff70;
+	border-radius: 0%;
+	font-family: "Montserrat", sans-serif;
+	color: #53054A;
+}
+
+.page-header {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.event {
+	font-family: "Montserrat", sans-serif;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+/* ----- Heading ----- */
+
+.jumbotron {
+    background-color: rgba(83, 5, 74, 0.5);
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.jumbotron-header {
+    color: #fafafa;
+	font-family: "Alfa Slab One", cursive;
+	letter-spacing: 5px;
+	font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.jumbotron-second-header {
+	color: #fafafa;
+	font-family: "Alfa Slab One", cursive;
+	letter-spacing: 5px;
+}
+
+
+/* ----- Hover ----- */
+
+.social-links li a i:hover {
+    background: #e9ff70;
+}
+
+.zoom-social:hover {
+	transform: scale(1.3); 
+	
+}
+
+/* ----- Navbar ----- */
+
+.navbar {
+
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	margin-right: 15px;
+	
+}	
+	
+.nav {
+	font-family: Montserrat;
+	font-weight: bold;
+	position: relative;
+	top: 0;
+	left: 0;
+    margin-bottom: 10px;
+    border: 0;
+    width: 100%;
+	
+	
+}
+
+.navbar-nav li {
+	margin-left: 40px;
+}
+
+
+.zoom:hover {
+	transform: scale(1.2); 
+	background-color: #e9ff70;
+}
+
+.navbar-toggler {
+	margin-top: -15px;
+	background-color: #095256;
+}
+
+
+/* ----- Block Dividers ----- */
+
+.block-divider {
+    width: 70px;
+    height: 3px;
+    border: 0;
+	background-color: #53054A;
+}
+	
+	
+/* ----- Content Containers ----- */
+
+/* ----- Jumbotron ----- */
+/* ----- Buttons ----- */
+
+.btn-primary {
+	background-color: #53054A;
+	border: #70D6FF;
+	margin-left: 10px;
+	color: #fafafa;
+	font-weight: bold;
+}
+
+
+.btn-primary:hover {
+	background-color: #70D6FF;
+}
+
+
+/* ----- Events ----- */
+
+.events {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.event h3{
+	font-family: "Alfa Slab One", cursive;
+	color: #53054A;
+	letter-spacing: 3px;
+}
+
+.event-date {
+	font-weight: bold;
+}
+
+.text-uppercase {
+	font-family: "Montserrat", sans-serif;
+	color: #095256;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 25px;
+	margin-bottom: 40px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+}
+
+.badge {
+	background: #e9ff70;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
+	color: #095256;
+}
+
+
+/* ----- Footer ----- */
+
+footer {
+    background-color: #53054A;
+    color: #e9ff70;
+    min-height: 120px;
+    margin-top: 60px;
+	font-family: "Montserrat", sans-serif;
+}
+
+#footer-details {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+.uppercase {
+	font-weight: bold;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+	margin-top: 15px;
+	margin-right: 15px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #53054A;
+    background: #e9ff70;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+
+.footer-space {
+	margin-top: -15px;
+}
+
+/* ----- Social Media ----- */
+/* ----- Images ----- */
+
+.center-image {
+	text-align: center;
+}
+.event-images {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.circle-container {
+    width: 265px;
+    height: 265px;
+    padding:30px;
+    border-style: solid;
+    border-color: #e9ff70;
+    border-width: 2px;
+    border-radius: 50%;
+    margin:0 auto;
+
+}
+ 
+ 
+/* ----- Newsletter ----- */
+/* ----- Media Queries ----- */
+
+@media(max-width: 768px) {
+    .jumbotron {
+        padding-left: 0;
+		padding-right: 0;
+    }
+	.jumbotron-header {
+		font-size: 54px;
+	}
+	.jumbotron-second-header {
+		font-size: 24px;
+	}
+}
+
+
+@media(max-width: 760px) {
+	.alert {
+		font-size: 13px;
+	}
+	
+	.btn-primary {
+		display: none;
+	}
+	
+	.navbar-nav li {
+		margin: 5px;
+		font-size: 60%;
+	}
+    
+    .jumbotron-second-header {
+		font-size: 16px;
+	}
+
+	.footer-space {
+		margin-bottom: 30px;
+	}
+	
+}
+
+@media(min-width: 768px) {
+	.alert-link {
+		display: none;
+	}
+
+}
+
+@media(max-height: 380px) {
+	.jumbotron-header {
+		font-size: 44px;
+	}
+
+	.jumbotron-second-header {
+		font-size: 18px;
+	}
+	
+}
+
