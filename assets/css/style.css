@@ -18,53 +18,61 @@ body {
     align-items: center;
     justify-content: center;
 	position: relative;
+	
 }
 
 .alert {
-	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
 	background: #e9ff70;
 	border: #e9ff70;
 	border-radius: 0%;
 	font-family: "Montserrat", sans-serif;
 	color: #53054A;
+	font-size: 0.875rem;
 }
 
 .page-header {
-	margin-top: 30px;
+	margin-top: 1.875rem;
 	text-align: center;
 }
 
 .event {
 	font-family: "Montserrat", sans-serif;
-	margin-left: 20px;
-	margin-top: 40px;
-	margin-bottom: 60px;
+	margin-left: 1.25rem;
+	margin-top: 2.5rem;
+	margin-bottom: 3.75rem;
 }
 
 /* ----- Heading ----- */
 
 .jumbotron {
     background-color: rgba(83, 5, 74, 0.5);
-	padding-left: 200px;
-	padding-right: 200px;
+
 }
 
 .jumbotron-header {
     color: #fafafa;
 	font-family: "Alfa Slab One", cursive;
-	letter-spacing: 5px;
-	font-size: 70px;
-    margin-bottom: 30px;
+	letter-spacing: 0.313rem;
+	font-size: 3rem;
+    margin-bottom: 1.875rem;
 }
 
 .jumbotron-second-header {
 	color: #fafafa;
 	font-family: "Alfa Slab One", cursive;
-	letter-spacing: 5px;
+	letter-spacing: 0.313rem;
+	font-size: 1.1rem;
 }
 
 
 /* ----- Hover ----- */
+
+
+.zoom:hover {
+	transform: scale(1.2); 
+}
+
 
 .social-links li a i:hover {
     background: #e9ff70;
@@ -77,10 +85,11 @@ body {
 /* ----- Navbar ----- */
 
 .navbar {
-	font-size: 24px;
+	font-size: 1.25rem;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
-	margin-right: 15px;
+	margin-right: 0.938rem;
+	margin-top: 1.2rem;
 }	
 	
 .nav {
@@ -89,23 +98,19 @@ body {
 	position: relative;
 	top: 0;
 	left: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     border: 0;
     width: 100%;
 }
 
 .navbar-nav li {
-	margin-left: 40px;
+	margin: 0.313rem;
+	font-size: 80%;
 }
 
-
-.zoom:hover {
-	transform: scale(1.2); 
-	background-color: #e9ff70;
-}
 
 .navbar-toggler {
-	margin-top: -15px;
+	margin-top: -0.938rem;
 	background-color: #095256;
 }
 
@@ -113,8 +118,8 @@ body {
 /* ----- Block Dividers ----- */
 
 .block-divider {
-    width: 70px;
-    height: 3px;
+    width: 4.375rem;
+    height: 0.188rem;
     border: 0;
 	background-color: #53054A;
 }
@@ -129,7 +134,7 @@ body {
 .btn-primary {
 	background-color: #53054A;
 	border: #70D6FF;
-	margin-left: 10px;
+	margin-left: 0.625rem;
 	color: #fafafa;
 	font-weight: bold;
 }
@@ -143,14 +148,14 @@ body {
 /* ----- Events ----- */
 
 .events {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 0.625rem;
+	margin-right: 0.625rem;
 }
 
 .event h3{
 	font-family: "Alfa Slab One", cursive;
 	color: #53054A;
-	letter-spacing: 3px;
+	letter-spacing: 0.188rem;
 }
 
 .event-date {
@@ -169,8 +174,8 @@ body {
 }
 
 .page-header h2 {
-    margin-top: 25px;
-	margin-bottom: 40px;
+    margin-top: 1.563rem;
+	margin-bottom: 2.5rem;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 }
@@ -188,29 +193,26 @@ body {
 footer {
     background-color: #53054A;
     color: #e9ff70;
-    min-height: 120px;
-    margin-top: 60px;
+    min-height: 7.5rem;
+    margin-top: 3.75rem;
 	font-family: "Montserrat", sans-serif;
 }
 
 #footer-details {
-	padding-top: 30px;
-	padding-left: 20px;
+	padding-top: 1.875rem;
+	padding-left: 1.25rem;
 }
 
-.uppercase {
-	font-weight: bold;
-}
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-	margin-top: 15px;
-	margin-right: 15px;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.75rem 0;
+	margin-top: 0.938rem;
+	margin-right: 0.938rem;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 0.813rem;
+    line-height: 0.438rem;
     text-align: center;
     color: #53054A;
     background: #e9ff70;
@@ -220,12 +222,19 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.general-sub {
+    font-family: "Alfa Slab One", cursive;
+    font-weight: lighter;
+    letter-spacing: 0.188rem;
+}
 
 .footer-space {
-	margin-top: -15px;
+	margin-top: -0.938rem;
+	margin-bottom: 1.875rem;
 }
 
 /* ----- Social Media ----- */
+
 
 /* ----- Images ----- */
 
@@ -234,18 +243,18 @@ footer {
 }
 
 .event-images {
-	height: 200px;
-	width: 200px;
+	height: 12.5rem;
+	width: 12.5rem;
 	border-radius: 50%;
 }
 
 .circle-container {
-    width: 265px;
-    height: 265px;
-    padding:30px;
+    width: 16.563rem;
+    height: 16.563rem;
+    padding: 1.875rem;
     border-style: solid;
     border-color: #e9ff70;
-    border-width: 2px;
+    border-width: 0.125rem;
     border-radius: 50%;
     margin:0 auto;
 }
@@ -255,51 +264,40 @@ footer {
 
 /* ----- Media Queries ----- */
 
-@media(max-width: 768px) {
-    .jumbotron {
-        padding-left: 0;
-		padding-right: 0;
-    }
+@media(min-width: 760px) {
+	.alert {
+		font-size: 1rem;
+	}
+	.alert-link {
+		display: none;
+	}
+	.navbar-nav li {
+		font-size: 100%;
+	}
+
 	.jumbotron-header {
-		font-size: 54px;
+		font-size: 4.375rem;
+	}
+	.jumbotron-header {
+		margin-top: -2.5rem;
 	}
 	.jumbotron-second-header {
-		font-size: 24px;
+		font-size: 1.6rem;
 	}
+	.navbar {
+		margin-top: -1.2rem;
+	}
+	.navbar-nav li {
+		margin-left: 2rem;
+	}	
+	
 }
 
 
 @media(max-width: 760px) {
-	.alert {
-		font-size: 13px;
-	}
 	.btn-primary {
-		display: none;
-	}
-	.navbar-nav li {
-		margin: 5px;
-		font-size: 60%;
-	}
-    .jumbotron-second-header {
-		font-size: 16px;
-	}
-	.footer-space {
-		margin-bottom: 30px;
-	}
+			display: none;
+		}
 }
 
-@media(min-width: 768px) {
-	.alert-link {
-		display: none;
-	}
-}
-
-@media(max-height: 380px) {
-	.jumbotron-header {
-		font-size: 44px;
-	}
-	.jumbotron-second-header {
-		font-size: 18px;
-	}
-}
-
+	
