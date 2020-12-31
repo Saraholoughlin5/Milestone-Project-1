@@ -13,23 +13,25 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat&display=swap" rel="stylesheet">
-    <title>Milestone Project 1</title>
+    <title>Milestone Project 1 - Homepage</title>
 </head>
 
 <body>
 
     <header>
-
-
+	
+	<!--Alert-->
+	
         <div class="alert alert-primary" role="alert">
-            Wondering how to rent a stall at Freeway Farmer's Market? <a class="btn btn-primary btn-sm"
-                href="contact.html" target="_blank">Click here!</a>
-            <a href="contact.html" class="alert-link"> Click here!</a>
+            Wondering how to rent a stall at Freeway Farmer's Market? 			
+			<a class="btn btn-primary btn-sm" data-toggle="modal" data-target="#signupmodal" href="/">Click Here!</a>			
+			<a class="alert-link" data-toggle="modal" data-target="#signupmodal" href="/"> Click Here!</a>
         </div>
-
-
+		<!--Modal placed after Footer-->
+		
+		<!--Navbar-->
+		
         <nav class="navbar navbar-dark navbar-expand-md">
-
             <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,13 +40,13 @@
             <div class="collapse navbar-collapse mr-auto" id="navbarNavDropdown">
                 <ul class="navbar-nav flex-row ml-md-auto d-md-flex">
                     <li class="nav-item mr-2 zoom">
-                        <a style="color: #095256;" class="nav-link active" href="/">Home</a>
+                        <a style="color: #095256;" class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item mr-2 zoom">
-                        <a style="color: #53054A;" class="nav-link" href="about.html" target="_blank">About</a>
+                        <a style="color: #53054A;" class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item mr-2 zoom">
-                        <a style="color: #53054A;" class="nav-link" href="contact.html" target="_blank">Contact</a>
+                        <a style="color: #53054A;" class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -53,6 +55,9 @@
 
 
     </header>
+	
+	<!--Callout/Jumbotron-->
+	
     <div class="container-fluid callout-container">
 
         <div class="row">
@@ -62,11 +67,13 @@
                     <h1 class="jumbotron-header">
                         Freeway Farmer's Market
                     </h1>
-                    <h3 class="jumbotron-second-header">Saturday & Sunday <br>9am - 5pm</h3>
+                    <h3 class="jumbotron-second-header">Every Saturday<br>9am - 5pm</h3>
                 </section>
             </div>
         </div>
     </div>
+	
+	<!--Upcoming Events-->
 
     <section class="events">
         <div class="container-fluid">
@@ -80,25 +87,24 @@
 
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="event">
-                        <h3>Children's Bakery <span class="badge badge-success">NEW!</span>
+                        <h3>Children's Bakery <i class="fas fa-cookie-bite"></i> <span class="badge badge-success">NEW!</span>
                         </h3>
                         <p class="event-date">
                             March 18th
                         </p>
                         <p>Support local children as they bake bread, biscuits and buns for the new monthly Children's
                             Bakery. This new event will take place on the third Saturday of every month, and we hope you
-                            join us to celebrate the talent of our up-and-coming chefs!</p>
+                            join us to celebrate our up-and-coming chefs!</p>
                     </div>
                     <div class="center-image">
-                        <div class="circle-container">
+                        <div class="home-container">
                             <img src="assets/images/childbake1.jpg" class="event-images" alt="ChildBakery">
                         </div>
                     </div>
                 </div>
                 <div class="col-12 d-md-12 d-lg-block col-lg-6">
                     <div class="event">
-                        <h3>Craft Fair
-                        </h3>
+                        <h3>Craft Fair <i class="fas fa-cut"></i></h3>
                         <p class="event-date">
                             May 6th-7th
                         </p>
@@ -108,7 +114,7 @@
                             to enquire about selling.</p>
                     </div>
                     <div class="center-image">
-                        <div class="circle-container">
+                        <div class="home-container">
                             <img src="assets/images/craftevent.jpg" class="event-images" alt="CraftEvent">
                         </div>
                     </div>
@@ -118,7 +124,7 @@
     </section>
 
 
-
+	<!--Footer-->
 
     <footer class="container-fluid">
 
@@ -160,6 +166,46 @@
         </div>
 
     </footer>
+	
+<!--Modal-->
+
+    <div class="modal" tabindex="-1" role="dialog" id="signupmodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+					<a><i class="fas fa-carrot modal-carrot" aria-hidden="true"></i>
+                        <span class="sr-only">Carrot</span>
+                    </a>
+                    <h5 class="modal-title">Freeway Farmers Market</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name"></label>
+                            <input type="text" class="form-control" id="first-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number"></label>
+                            <input type="tel" class="form-control" id="contact-number" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp" placeholder="Email Address" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your details
+                                with anyone</small>
+                        </div>
+                        <button type="submit" class="btn btn-modal btn-new-color">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
