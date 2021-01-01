@@ -52,7 +52,7 @@ beneath a 'Details' heading (left) and a 'Newsletter' email submission form and 
 view the 'Newsletter' appears beneath the 'Details' and the image is removed.
 
 ### **Responsivity**
-<p align="center">![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")</p>
+![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")
 
 The website for the Freeway Farmer's Market is responsive across a number of browsers, devices and
 orientations. In the mock-ups, the scrollbar has been used to show the lower part of the pages in some
@@ -129,17 +129,17 @@ Wireframes were created in [Balsamiq](www.balsamiq.com).
 
 
 _Home Page_
-![alt Wireframe Home](assets/images/wireframes/wireframe_home.png){:height="200px" width="200px"}
-![alt Wireframe Home Mobile](assets/images/wireframes/wireframe_home_mobile.png){:height="150px" width="70px"}
+![alt Wireframe Home](assets/images/wireframes/wireframe_home.png)
+![alt Wireframe Home Mobile](assets/images/wireframes/wireframe_home_mobile.png)
 
 
 _About Page_
-![alt Wireframe About](assets/images/wireframes/wireframe_about.png){:height="200px" width="200px"} 
-![alt Wireframe About Mobile](assets/images/wireframes/wireframe_about_mobile.png){:height="150px" width="70px"}
+![alt Wireframe About](assets/images/wireframes/wireframe_about.png)
+![alt Wireframe About Mobile](assets/images/wireframes/wireframe_about_mobile.png)
 
 _Contact Page_
-![alt Wireframe Contact](assets/images/wireframes/wireframe_contact.png){:height="200px" width="200px"}
-![alt Wireframe Contact Mobile](assets/images/wireframes/wireframe_contact_mobile.png){:height="150px" width="70px"}
+![alt Wireframe Contact](assets/images/wireframes/wireframe_contact.png)
+![alt Wireframe Contact Mobile](assets/images/wireframes/wireframe_contact_mobile.png)
 
 
 #### **Colour Palette**
@@ -147,7 +147,7 @@ _Contact Page_
 I chose the colour palette using the [Coolors](www.coolors.co) website. The main colours used on the
 site are 'Dark Byzantium' #4D243D (aubergine) and 'Mindarc' #E9FF70 (light green).
 
-<p align="center">![alt Colour Palette](assets/images/mockups/color_palette.png "Colour Palette")</p>
+![alt Colour Palette](assets/images/mockups/color_palette.png "Colour Palette")
 
 #### **Images**
 
@@ -182,7 +182,7 @@ with various browsers/devices/orientations.
 #### **General Testing (user/functional/layout for all pages)**
 
 | Action                              | Expected Result  | Result           | Status|
-| ----------------------------------- | ---------------- | ---------------- | ----- |
+| :----------------------------------- | :---------------- | :---------------- | :----- |
 | Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
 | Click on the alert bar button in mobile view       | Form modal opens | Form modal opens | Pass  |
 | Populate the fields with suitable entries       | Fields populated  | Fields populated  | Pass  |
@@ -294,9 +294,8 @@ versions of code made available via course videos.
 #### **Images**
 
 All images were downloaded from [Unsplash](https://unsplash.com/). Credited as follows:
-
 | Name                                | Image                                       |
-| ----------------------------------- | ------------------------------------------- | 
+| :---------------------------------- | :------------------------------------------ | 
 | Ratul Ghosh                         | Main [background image](assets/images/home.jpg) on all pages          |
 | Caitlin de Wild                     | [Image 1](assets/images/childbake1.jpg) on the 'Home' page                  |
 | Evgeny Dzhumaev                     | [Image 2](assets/images/craftevent.jpg) on the 'Home' page                  |
