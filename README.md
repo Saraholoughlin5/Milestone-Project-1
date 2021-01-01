@@ -125,22 +125,18 @@ and do not clash with the site colour palette.
 
 #### **Wireframes**
 
-Wireframes were created in [Balsamiq](www.balsamiq.com).
+Wireframes were created in [Balsamiq](www.balsamiq.com). Full size wireframe images are available [here](assets/images/wireframes).
 
 
 _Home Page_
-![alt Wireframe Home](assets/images/wireframes/wireframe_home.png)
-![alt Wireframe Home Mobile](assets/images/wireframes/wireframe_home_mobile.png)
+![alt Wireframe Home](assets/images/wireframes/wireframe1.png)
 
 
 _About Page_
-![alt Wireframe About](assets/images/wireframes/wireframe_about.png)
-![alt Wireframe About Mobile](assets/images/wireframes/wireframe_about_mobile.png)
+![alt Wireframe About](assets/images/wireframes/wireframe2.png)
 
 _Contact Page_
-![alt Wireframe Contact](assets/images/wireframes/wireframe_contact.png)
-![alt Wireframe Contact Mobile](assets/images/wireframes/wireframe_contact_mobile.png)
-
+![alt Wireframe Contact](assets/images/wireframes/wireframe3.png)
 
 #### **Colour Palette**
 
