@@ -1,8 +1,8 @@
-# **<u>Milestone Project 1</u>**
+# **Milestone Project 1**
 
 ## Freeway Food Market Website
 
-### **<u>Purpose</u>**
+### **Purpose**
 
 The purpose of this website is to provide information to potential customers and vendors alike on the
 history of the Freeway Farmer's Market, and to advertise the general products, dates, times and location
@@ -13,7 +13,7 @@ what type of goods are available, when special events are taking place, and how 
 Potential vendors will be able to enquire about renting a stall at the market.
 
 
-### **<u>Details</u>**
+### **Details**
 
 #### **'Home' page**
 
@@ -51,15 +51,14 @@ Beneath the main image a 'Contact Us' section displays name, address, phone and 
 beneath a 'Details' heading (left) and a 'Newsletter' email submission form and image (right). In mobile
 view the 'Newsletter' appears beneath the 'Details' and the image is removed.
 
-### **<u>Responsivity</u>**
-
-![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")
+### **Responsivity**
+<p align="center">![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")</p>
 
 The website for the Freeway Farmer's Market is responsive across a number of browsers, devices and
 orientations. In the mock-ups, the scrollbar has been used to show the lower part of the pages in some
 instances. Mock ups for the [About](assets/images/mockups/mockup_2.png) and [Contact](assets/images/mockups/mockup_3.jpg) pages are also available.
 
-### **<u>UX (User Experience)</u>**
+### **UX (User Experience)**
 
 #### **Strategy Plane**
 
@@ -95,7 +94,7 @@ The colour palette was chosen to reflect the enticing, fresh and vitality-based 
 The font families suit the theme of the website and product also. The images are dynamic and bright,
 and do not clash with the site colour palette.
 
-### **<u>User Stories</u>**
+### **User Stories**
 
 #### **First Time User**
 
@@ -122,42 +121,42 @@ and do not clash with the site colour palette.
 - I can apply to be a seller at the market as I know where the enquiry form is located and what
     information is required
 
-### **<u>Design</u>**
+### **Design**
 
 #### **Wireframes**
 
-Wireframes were created in Balsamiq (www.balsamiq.com).
+Wireframes were created in [Balsamiq](www.balsamiq.com).
 
 
 _Home Page_
-![alt Wireframe Home](assets/images/wireframes/wireframe_home.png "Wireframe Home")
-![alt Wireframe Home Mobile](assets/images/wireframes/wireframe_home_mobile.png "Wireframe Home Mobile")
+![alt Wireframe Home](assets/images/wireframes/wireframe_home.png){:height="200px" width="200px"}
+![alt Wireframe Home Mobile](assets/images/wireframes/wireframe_home_mobile.png){:height="150px" width="70px"}
 
 
 _About Page_
-![alt Wireframe About](assets/images/wireframes/wireframe_about.png "Wireframe About")
-![alt Wireframe About Mobile](assets/images/wireframes/wireframe_about_mobile.png "Wireframe About Mobile")
+![alt Wireframe About](assets/images/wireframes/wireframe_about.png){:height="200px" width="200px"} 
+![alt Wireframe About Mobile](assets/images/wireframes/wireframe_about_mobile.png){:height="150px" width="70px"}
 
 _Contact Page_
-![alt Wireframe Contact](assets/images/wireframes/wireframe_contact.png "Wireframe Contact")
-![alt Wireframe Contact Mobile](assets/images/wireframes/wireframe_contact_mobile.png "Wireframe Contact Mobile")
+![alt Wireframe Contact](assets/images/wireframes/wireframe_contact.png){:height="200px" width="200px"}
+![alt Wireframe Contact Mobile](assets/images/wireframes/wireframe_contact_mobile.png){:height="150px" width="70px"}
 
 
 #### **Colour Palette**
 
-I chose the colour palette using the Coolors website (www.coolors.co). The main colours used on the
+I chose the colour palette using the [Coolors](www.coolors.co) website. The main colours used on the
 site are 'Dark Byzantium' #4D243D (aubergine) and 'Mindarc' #E9FF70 (light green).
 
-![alt Colour Palette](assets/images/mockups/color_palette.png "Colour Palette")
+<p align="center">![alt Colour Palette](assets/images/mockups/color_palette.png "Colour Palette")</p>
 
 #### **Images**
 
-The images on the site were sourced from Unsplash (www.unsplash.com). Further details available in
+The images on the site were sourced from [Unsplash](www.unsplash.com). Further details available in
 the Credits section.
 
 #### **Typography**
 
-Fonts used on the site were sourced from Google Fonts (www.fonts.google.com). The main headings are
+Fonts used on the site were sourced from [Google Fonts](www.fonts.google.com). The main headings are
 displayed in 'Alfa Slab One' and the text sections are presented in 'Montserrat'. Fonts were paired in
 Google Fonts as being compatible.
 
@@ -185,16 +184,16 @@ with various browsers/devices/orientations.
 | Action                              | Expected Result  | Result           | Status|
 | ----------------------------------- | ---------------- | ---------------- | ----- |
 | Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
-| Click on the alert bar button       | Form modal opens | Form modal opens | Pass  |
+| Click on the alert bar button in mobile view       | Form modal opens | Form modal opens | Pass  |
+| Populate the fields with suitable entries       | Fields populated  | Fields populated  | Pass  |
+| Click ‘Submit’ or ‘x’        | Modal closes  | Modal closes  | Pass  |
+| Click on the navigation items        | Expected pages open  | Expected pages open  | Pass  |
+| Click on the toggle button and navigation buttons in mobile view       | Navigation items are displayed and expected pages open  | Navigation items are displayed and expected pages open  | Pass  |
+| Scroll to bottom of the screen        | No visual or technical issues  | No visual or technical issues  | Pass  |
+| Click on social link icons in footer        | Site homepage is displayed in its own browser page  | Site homepage is displayed in its own browser page  | Pass  |
+| In the ‘Contacts’ page, add email address to ‘Newsletter’ field        | Email address drop-down present, email address entered successfully  | Email address drop-down present, email address entered successfully  | Pass  |
+| In the ‘Contacts’ page, click on the phone number(s)       | ‘Make a Call’ pop-up is displayed  | ‘Make a Call’ pop-up is displayed  | Pass  |
+| In the ‘Contacts’ page, click on the email address(es)        | Default email program is launched  | Default email program is launched  | Pass  |
 
 
 #### **Browser Compatability**
@@ -206,16 +205,13 @@ Tested with Chrome, Safari and Microsoft Edge. Compatible with each browser.
 Viewed on a variety of phones and tablets via the ‘Inspect’ tool in Chrome, Safari and Microsoft Edge.
 Compatible at portrait and landscape orientations. Also compatible on laptop/desktop.
 
-### **<u>Validation</u>**
+### **Validation**
 
-**HTML:** https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaraholoughlin5.github.io%2FMilestone-
-Project-1%2F
+**HTML:** https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaraholoughlin5.github.io%2FMilestone-Project-1%2F
 
-**CSS:** https://jigsaw.w3.org/css-
-validator/validator?uri=https%3A%2F%2Fsaraholoughlin5.github.io%2FMilestone-Project-
-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+**CSS:** https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsaraholoughlin5.github.io%2FMilestone-Project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-### **<u>Technologies</u>**
+### **Technologies**
 
 #### **Languages**
 
@@ -232,33 +228,33 @@ Development environment
 [Notepad++](https://notepad-plus-plus.org/)<br>
 Offline source code editor
 
-[Bootstrap V4.3](https://getbootstrap.com/) 
+[Bootstrap V4.3](https://getbootstrap.com/)<br>
 Provides pre-defined classes for elements of a website, which can be restyled as required using CSS.
 Used for a variety of items in the website, such as the alert, jumbotron and modal.
 
-[Font Awesome](https://fontawesome.com/)
+[Font Awesome](https://fontawesome.com/)<br>
 Provides free icons that can be restyled with CSS. Used in page content headings and social media links
 in the footer.
 
-[Google Fonts](https://fonts.google.com/)
+[Google Fonts](https://fonts.google.com/)<br>
 Provides links to a large variety of fonts and related compatible paired fonts. ‘Alfa Slab One’ and
 ‘Montserrat’ used throughout this website.
 
-[PX-to-REM](https://nekocalc.com/px-to-rem-converter)
+[PX-to-REM](https://nekocalc.com/px-to-rem-converter)<br>
 This site was used to convert px to rem
 
 #### **Layout and Testing**
 
-[Balsamiq](https://balsamiq.com/)
+[Balsamiq](https://balsamiq.com/)<br>
 Wireframe were created on the Balsamiq cloud-based platform
 
-[Am I Responsive?](http://ami.responsivedesign.is/)
+[Am I Responsive?](http://ami.responsivedesign.is/)<br>
 Used to create mock-ups of each page of the website
 
-[W3C HTML Validation](https://validator.w3.org/)
+[W3C HTML Validation](https://validator.w3.org/)<br>
 Used to validate the HTML code of the website
 
-[W3C CSS Validation](https://jigsaw.w3.org/css-validator/)
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
 Used to validate the CSS code of the website
 
 ### **<u>Deployment</u>**
@@ -270,9 +266,11 @@ The website was built offline in Notepad++ and copied to GitPod at various miles
 
 In GitHub, I logged in and clicked on the ‘New’ button in the left-hand menu. On the ‘Create a New Repository’ page, I clicked on the ‘Repository Template’ button and chose the ‘Code Institute’ template provided.
 I checked the ‘Include all branches’ tick-box. I entered ‘MilestoneProject-1’ in the ‘Repository Name’ field, left the radio button checked at ‘Public’, and clicked on the ‘Create Repository’ button. 
+
 Once in the new repository, I clicked on ‘GitPod’ in my browser extensions to open the workspace. The ‘index.html’ and ‘style.css’ files were created, with the CSS file being added to the ‘assets/css’ folder.
 Much of the code was initially created in Notepad++ then copied to GitPod. Images were added to the ‘assets/images’ folder. 
 The following command was entered in the terminal to open port 8000 to view the html file in the browser: ‘python3 -m http.server’. 
+
 Commands were also used to add files, commit changes with comments, push to the repository: git add, git commit and git push. 
 The status was checked using ‘git status’.
 
@@ -282,7 +280,7 @@ In the MilestoneProject-1 repository on GitHub, I clicked on the ‘Settings’ 
 GitHub Pages section. I chose ‘Master Branch’ and ‘Save’, then I clicked on the link to successfully view
 the live page.
 
-### **<u>Acknowledgements</u>**
+### **Acknowledgements**
 
 #### **Mentor**
 Thanks to Spencer Barriball for his valuable feedback
@@ -295,7 +293,7 @@ versions of code made available via course videos.
 
 #### **Images**
 
-All images were downloaded from [Unsplash]. Credited as follows:
+All images were downloaded from [Unsplash](https://unsplash.com/). Credited as follows:
 
 | Name                                | Image                                       |
 | ----------------------------------- | ------------------------------------------- | 
@@ -306,14 +304,6 @@ All images were downloaded from [Unsplash]. Credited as follows:
 | CDC @cdc                            | [Image 2](assets/images/about3.jpg) on the 'About' page                 |
 | Austin Distel                       | [Image 1](assets/images/newsletter.jpg) on the Contact page                 |
 
-
-Ratul Ghosh (Main background image on all
-pages)
-
-Sigmund @sigmund (Image 1 on the About page)
-
-Caitlin de Wild (Image 2 on the Home page) CDC @cdc (image 2 on the About page)
-Evgeny Dzhumaev (Image 2 on the Home page) Austin Distel (Image 1 on the Contact page)
 
 #### **Text Content**
 All text available on the website was prepared by me.
