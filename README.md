@@ -52,11 +52,12 @@ beneath a 'Details' heading (left) and a 'Newsletter' email submission form and 
 view the 'Newsletter' appears beneath the 'Details' and the image is removed.
 
 ### **Responsivity**
-![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")
 
 The website for the Freeway Farmer's Market is responsive across a number of browsers, devices and
 orientations. In the mock-ups, the scrollbar has been used to show the lower part of the pages in some
 instances. Mock ups for the [About](assets/images/mockups/mockup_2.png) and [Contact](assets/images/mockups/mockup_3.jpg) pages are also available.
+
+![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")
 
 ### **UX (User Experience)**
 
@@ -128,14 +129,14 @@ and do not clash with the site colour palette.
 Wireframes were created in [Balsamiq](www.balsamiq.com). Full size wireframe images are available [here](assets/images/wireframes).
 
 
-_Home Page_
+_Home Page_<br>
 ![alt Wireframe Home](assets/images/wireframes/wireframe1.png)
 
 
-_About Page_
+_About Page_<br>
 ![alt Wireframe About](assets/images/wireframes/wireframe2.png)
 
-_Contact Page_
+_Contact Page_<br>
 ![alt Wireframe Contact](assets/images/wireframes/wireframe3.png)
 
 #### **Colour Palette**
@@ -148,7 +149,7 @@ site are 'Dark Byzantium' #4D243D (aubergine) and 'Mindarc' #E9FF70 (light green
 #### **Images**
 
 The images on the site were sourced from [Unsplash](www.unsplash.com). Further details available in
-the Credits section.
+the Credits and Acknowledgments section.
 
 #### **Typography**
 
@@ -253,7 +254,7 @@ Used to validate the HTML code of the website
 [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
 Used to validate the CSS code of the website
 
-### **<u>Deployment</u>**
+### **Deployment**
 
 #### **Website Creation in Notepad++**
 The website was built offline in Notepad++ and copied to GitPod at various milestones.
@@ -276,20 +277,21 @@ In the MilestoneProject-1 repository on GitHub, I clicked on the ‘Settings’ 
 GitHub Pages section. I chose ‘Master Branch’ and ‘Save’, then I clicked on the link to successfully view
 the live page.
 
-### **Acknowledgements**
+### **Credits and Acknowledgements**
 
 #### **Mentor**
-Thanks to Spencer Barriball for his valuable feedback
+Thank you to Spencer Barriball for his valuable feedback
 
 #### **Code**
-To zoom on hover for the navigation items and social media icons, I used and restyled this W3C code.
+To zoom on hover for the navigation items and social media icons, I used and restyled [this](https://www.w3schools.com/howto/howto_css_zoom_hover.asp) W3Schools code.
 
 Main components of the website, such as the alert, buttons, jumbotron and modal, were restyled
-versions of code made available via course videos.
+versions of code made available via course lessons.
 
 #### **Images**
 
 All images were downloaded from [Unsplash](https://unsplash.com/). Credited as follows:
+
 | Name                                | Image                                       |
 | :---------------------------------- | :------------------------------------------ | 
 | Ratul Ghosh                         | Main [background image](assets/images/home.jpg) on all pages          |
@@ -301,4 +303,4 @@ All images were downloaded from [Unsplash](https://unsplash.com/). Credited as f
 
 
 #### **Text Content**
-All text available on the website was prepared by me.
+All text presented on the website was prepared by me.
