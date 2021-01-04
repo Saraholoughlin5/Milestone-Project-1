@@ -1,21 +1,67 @@
 # **Milestone Project 1**
 
+# Table of Contents
+1. [Purpose](#purpose)
+2. [Details](#details)
+	1. ['Home' page](#homepage)
+	2. ['About' page](#aboutpage)
+	3. ['Contact' page](#contactpage)
+3. [Responsivity](#responsivity)
+4. [UX (User Experience)](#userexperience)
+	1. [Strategy Plane](#strategy)
+	2. [Scope Plane](#scope)
+	3. [Structure Plane](#structure)
+	4. [Skeleton Plane](#skeleton)
+	5. [Surface Plane](#surface)
+5. [User Stories](#userstories)
+	1. [First Time User](#firsttimeuser)
+	2. [Returning User](#returninguser)
+	3. [Frequent User](#frequentuser)
+6. [Design](#design)
+	1. [Wireframes](#wireframes)
+	2. [Colour Palette](#colourpalette)
+	3. [Images](#images)
+	4. [Typography](#typography)
+	5. [Current Features](#currentfeatures)
+	6. [Future Features](#futurefeatures)
+7. [Testing](#testing)
+	1. [General Testing (user/functional/layout for all pages)](#generaltesting)
+	2. [Bug Fixes](#bugfixes)
+	3. [Browser Compatability](#browsercompatability)
+	4. [Device Compatability](#devicecompatability)
+8. [Validation](#validation)
+9. [Technologies](#technologies)
+	1. [Languages](#languages)
+	2. [Frameworks and Libraries](#frameworks)
+    3. [Layout and Testing](#layouts)
+10. [Deployment](#deployment)
+	1. [Website Creation in Notepad++](#websitecreation)
+	2. [Website Build in GitHub and GitPod](#websitebuild)
+	3. [Viewing the Live Website with GitHub Pages](#viewinglive)
+11. [Credit and Acknowledgements](#creditandack)
+	1. [Mentor](#mentor)
+	2. [Code](#code)
+	3. [Images](#images2)
+	4. [Text Content](#textcontent)
+
+
 ## Freeway Food Market Website
 
-### **Purpose**
+### **Purpose** <a name="purpose"></a>
 
 The purpose of this website is to provide information to potential customers and vendors alike on the
 history of the Freeway Farmer's Market, and to advertise the general products, dates, times and location
-of the market, including upcoming events.
+of the market, including upcoming events. 
 
 Customers will know when and where to attend the market, how to contact the market coordinator,
 what type of goods are available, when special events are taking place, and how to receive a newsletter.
 Potential vendors will be able to enquire about renting a stall at the market.
 
+The site is responsive on a variety of devices, and features are easily accessible to all site visitors.
 
-### **Details**
+### **Details** <a name="details"></a>
 
-#### **'Home' page**
+#### **'Home' page** <a name="homepage"></a>
 
 The 'Home' page header contains an alert that draws the attention of potential vendors, and a button (or link on mobile view) that leads potential vendors to
 a form modal enabling them to enquire about renting a stall to sell goods at the market. The form
@@ -34,7 +80,7 @@ usual market fare (special interest or non-food related items, such as crafts). 
 
 The footer contains the addresses for the market venue and office, as well as social media links.
 
-#### **'About' page**
+#### **'About' page** <a name="aboutpage"></a>
 
 This page contains the same header and footer information as the homepage. The body of the page
 contains the name of the market with a portion of the homepage main image as a background.
@@ -42,7 +88,7 @@ contains the name of the market with a portion of the homepage main image as a b
 An 'About the Market' section displays text passages which outline the history of
 the market and provides details on what goods are for sale. Related images included.
 
-#### **'Contact' page**
+#### **'Contact' page** <a name="contactpage"></a>
 
 The contact page contains the same header and footer information as the homepage. The body of the
 page contains the name of the market with a portion of the homepage main image as a background.
@@ -51,7 +97,7 @@ A 'Contact Us' section displays name, address, phone and email information
 beneath a 'Details' heading (left) and a 'Newsletter' email submission form and image (right). In mobile
 view the 'Newsletter' appears beneath the 'Details' and the image is removed. Clicking on the button currently resets the form field if an email address is entered.
 
-### **Responsivity**
+### **Responsivity** <a name="responsivity"></a>
 
 The website for the Freeway Farmer's Market is responsive across a number of browsers, devices and
 orientations. In the mock-ups, the scrollbar has been used to show the lower part of the pages in some
@@ -59,21 +105,21 @@ instances. Mock ups for the [About](assets/images/mockups/mockup_2.png) and [Con
 
 ![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")
 
-### **UX (User Experience)**
+### **UX (User Experience)** <a name="userexperience"></a>
 
-#### **Strategy Plane**
+#### **Strategy Plane** <a name="strategy"></a>
 
 The website is required to generate income for the client by promoting the market to both customers
 and vendors. The user’s needs are met, as the site provides relevant and accessible information, forms and links.
 
-#### **Scope Plane**
+#### **Scope Plane** <a name="scope"></a>
 
 Features available in the website include an alert that encourages potential vendors to contact the site
 owners at the click of a button. A newsletter can be easily subscribed to on the 'Contact' page (currently resets the form, JS required). Social
 media icons (currently linking to the site's homepages) are available in the footer on all pages. Address
 and contact details are also available.
 
-#### **Structure Plane**
+#### **Structure Plane** <a name="structure"></a>
 
 The structure of the website is uncluttered and easily navigated. Users can move between the 3 site
 pages via the navigation menu items. Ample opportunity is provided to contact the client, for example,
@@ -81,22 +127,22 @@ via the alert button, the 'Contact' navigation menu link address details in the 
 Social media links are also available in the footer, currently leading to the homepage of each site (these would lead to active accounts if
 the business was live). 
 
-#### **Skeleton Plane**
+#### **Skeleton Plane** <a name="skeleton"></a>
 
 Wireframes were created to plan the initial layout of each webpage, detailing where each section,
 button and link would be placed. For example, it was determined that adding a form modal to the alert
 aimed at vendors may encourage them to apply to rent a stall moreso than if the alert was not present, or if it was present without the button/link.
 Layout of text and images and how each site page would look at various sizes were also determined.
 
-#### **Surface Plane**
+#### **Surface Plane** <a name="surface"></a>
 
 The colour palette was chosen to reflect the enticing, fresh, vitality-based qualities of the products.
 The font families suit the theme of the website and product also. The images are dynamic and bright,
 and do not clash with the site colour palette. The light background throughout adds to the fresh, light feel that suits the topic.
 
-### **User Stories**
+### **User Stories** <a name="userstories"></a>
 
-#### **First Time User**
+#### **First Time User** <a name="firsttimeuser"></a>
 
 - I can immediately see what the site's purpose is and I quickly know that it is the site I intended
     to view
@@ -108,23 +154,23 @@ and do not clash with the site colour palette. The light background throughout a
 - I can view the site and navigate as expected on my mobile phone, tablet or laptop/desktop
 - I can access the related social media platforms provided
 
-#### **Returning User**
+#### **Returning User** <a name="returninguser"></a>
 
 - I can check what new updated events are available, after previously noting this section on my initial
     visit
 - I can subscribe to the newsletter, after previously noting where the subscription form is located
 - I know where to go to access the phone number/email addresses of the business owners
 
-#### **Frequent User**
+#### **Frequent User** <a name="frequentuser"></a>
 
 - I regularly check on upcoming events, and I also check to see if additional products have been
     added
 - I can apply to be a seller at the market as I know the type of products usually sold there, where the enquiry form is located and what
     information is required
 
-### **Design**
+### **Design** <a name="design"></a>
 
-#### **Wireframes**
+#### **Wireframes** <a name="wireframes"></a>
 
 Wireframes were created in [Balsamiq](www.balsamiq.com). Full size wireframe images are available [here](assets/images/wireframes).
 
@@ -139,26 +185,26 @@ _About Page_<br>
 _Contact Page_<br>
 ![alt Wireframe Contact](assets/images/wireframes/wireframe3.png)
 
-#### **Colour Palette**
+#### **Colour Palette** <a name="colourpalette"></a>
 
 I chose the colour palette using the [Coolors](www.coolors.co) website. The main colours used on the
 site are 'Dark Byzantium' #4D243D (aubergine) and 'Mindarc' #E9FF70 (light green).
 
 ![alt Colour Palette](assets/images/mockups/color_palette.png "Colour Palette")
 
-#### **Images**
+#### **Images** <a name="images"></a>
 
 The images on the site were sourced from [Unsplash](www.unsplash.com). Further details available in
 the Credits and Acknowledgments section.
 The images are not skewed or pixelated on the site. 
 
-#### **Typography**
+#### **Typography** <a name="typography"></a>
 
 Fonts used on the site were sourced from [Google Fonts](www.fonts.google.com). The main headings are
 displayed in 'Alfa Slab One' and the text sections are presented in 'Montserrat'. Fonts were paired in
 Google Fonts as being compatible.
 
-#### **Current Features**
+#### **Current Features** <a name="currentfeatures"></a>
 
 - The navigation bar is presented as a toggle button in mobile view, and the user can click on it to
     reveal or conceal the navigation menu.
@@ -167,18 +213,18 @@ Google Fonts as being compatible.
 - The 'About' page contains a newsletter submission button, preceded by an email address field.
 - The footer contains clickable social media links.
 
-#### **Future Features**
+#### **Future Features** <a name="futurefeatures"></a>
 
 - Confirmation pop-up when user submits form modal (alert bar). JavaScript required
 - 'Subscribe to Newsletter' button currently does not send information, it resets the input field when clicked. JavaScript is required to send information and provide a confirmation pop-up
 - Social media links to actual account related to the site/business
 
-### **Testing**
+### **Testing** <a name="testing"></a>
 
 This is a static website so testing is limited to visual inspection, layout, link interaction, and compatibility
 with various browsers/devices/orientations.
 
-#### **General Testing (user/functional/layout for all pages)**
+#### **General Testing (user/functional/layout for all pages)** <a name="generaltesting"></a>
 
 | Action                              | Expected Result  | Result           | Status|
 | :----------------------------------- | :---------------- | :---------------- | :----- |
@@ -195,34 +241,34 @@ with various browsers/devices/orientations.
 | In the ‘Contacts’ page, click on the phone number(s)       | ‘Make a Call’ pop-up is displayed  | ‘Make a Call’ pop-up is displayed  | Pass  |
 | In the ‘Contacts’ page, click on the email address(es)        | Default email program is launched  | Default email program is launched  | Pass  |
 
-#### **Bug Fixes**
+#### **Bug Fixes** <a name="bugfixes"></a>
 
 A button is present in the alert at the top of each page, which leads to a form modal. At small device dimensions this button changes to a link. 
 There was an overlap on medium sized screens where the button and link were visible at the same time. 
 This bug was fixed using a media query in the CSS stylesheet.
 
-#### **Browser Compatability**
+#### **Browser Compatability** <a name="browsercompatability"></a>
 
 Tested with Chrome, Safari and Microsoft Edge. Compatible with each browser.
 
-#### **Device Compatability**
+#### **Device Compatability** <a name="devicecompatability"></a>
 
 Viewed on a variety of phones and tablets via the ‘Inspect’ tool in Chrome, Safari and Microsoft Edge. Tested on ['Am I Responsive?'](http://ami.responsivedesign.is/) site.
 Compatible at portrait and landscape orientations. 
 
-### **Validation**
+### **Validation** <a name="validation"></a>
 
 **HTML:** https://validator.w3.org/nu/?doc=https%3A%2F%2Fsaraholoughlin5.github.io%2FMilestone-Project-1%2F
 
 **CSS:** https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsaraholoughlin5.github.io%2FMilestone-Project-1%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
-### **Technologies**
+### **Technologies** <a name="technologies"></a>
 
-#### **Languages**
+#### **Languages** <a name="languages"></a>
 
 HTML and CSS were used to build and style the website
 
-#### **Frameworks and Libraries**
+#### **Frameworks and Libraries** <a name="frameworks"></a>
 
 [GitHub](https://github.com/)<br>
 Cloud-based repository service that hosts the website’s source files
@@ -248,7 +294,7 @@ Provides links to a large variety of fonts and related compatible paired fonts. 
 [PX-to-REM](https://nekocalc.com/px-to-rem-converter)<br>
 This site was used to convert px to rem
 
-#### **Layout and Testing**
+#### **Layout and Testing** <a name="layouts"></a>
 
 [Balsamiq](https://balsamiq.com/)<br>
 Wireframe were created on the Balsamiq cloud-based platform
@@ -262,12 +308,12 @@ Used to validate the HTML code of the website
 [W3C CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
 Used to validate the CSS code of the website
 
-### **Deployment**
+### **Deployment** <a name="deployment"></a>
 
-#### **Website Creation in Notepad++**
+#### **Website Creation in Notepad++** <a name="websitecreation"></a>
 The website framework was built offline in Notepad++ and copied to GitPod at various milestones.
 
-#### **Website Build in GitHub and GitPod**
+#### **Website Build in GitHub and GitPod** <a name="websitebuild"></a>
 
 In GitHub, I logged in and clicked on the ‘New’ button in the left-hand menu. On the ‘Create a New Repository’ page, I clicked on the ‘Repository Template’ button and chose the ‘Code Institute’ template provided.
 I checked the ‘Include all branches’ tick-box. I entered ‘MilestoneProject-1’ in the ‘Repository Name’ field, left the radio button checked at ‘Public’, and clicked on the ‘Create Repository’ button. 
@@ -279,24 +325,24 @@ The following command was entered in the terminal to open port 8000 to view the 
 Commands were also used to add files, commit changes with comments, push to the repository: git add, git commit and git push. 
 The status was checked using ‘git status’.
 
-#### **Viewing the Live Website with GitHub Pages**
+#### **Viewing the Live Website with GitHub Pages** <a name="viewinglive"></a>
 
 In the MilestoneProject-1 repository on GitHub, I clicked on the ‘Settings’ tab and scrolled down to the
 GitHub Pages section. I chose ‘Master Branch’ and ‘Save’, then I clicked on the link to successfully view
 the live page. This link was also used for responsivity and validation checks.
 
-### **Credits and Acknowledgements**
+### **Credits and Acknowledgements** <a name="creditandack"></a>
 
-#### **Mentor**
+#### **Mentor** <a name="mentor"></a>
 Thank you to Spencer Barriball for his valuable feedback
 
-#### **Code**
+#### **Code** <a name="code"></a>
 To zoom on hover for the navigation items and social media icons, I used and restyled [this](https://www.w3schools.com/howto/howto_css_zoom_hover.asp) W3Schools code.
 
 Main components of the website, such as the alert, buttons, jumbotron and modal, were restyled
 versions of code made available via course lessons.
 
-#### **Images**
+#### **Images** <a name="images2"></a>
 
 All images were downloaded from [Unsplash](https://unsplash.com/). Credited as follows:
 
@@ -310,5 +356,5 @@ All images were downloaded from [Unsplash](https://unsplash.com/). Credited as f
 | Austin Distel                       | [Image 1](assets/images/newsletter.jpg) on the Contact page                 |
 
 
-#### **Text Content**
+#### **Text Content** <a name="textcontent"></a>
 All text presented on the website was prepared by me.
