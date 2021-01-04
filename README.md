@@ -196,7 +196,7 @@ site are 'Dark Byzantium' #4D243D (aubergine) and 'Mindarc' #E9FF70 (light green
 
 The images on the site were sourced from [Unsplash](www.unsplash.com). Further details available in
 the Credits and Acknowledgments section.
-The images are not skewed or pixelated on the site. 
+The images are not skewed or pixelated on the site. Each image presented is surrounded by a light green border for consistency throughout the site.
 
 #### **Typography** <a name="typography"></a>
 
