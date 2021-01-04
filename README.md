@@ -101,7 +101,7 @@ view the 'Newsletter' appears beneath the 'Details' and the image is removed. Cl
 
 The website for the Freeway Farmer's Market is responsive across a number of browsers, devices and
 orientations. In the mock-ups, the scrollbar has been used to show the lower part of the pages in some
-instances. Mock ups for the [About](assets/images/mockups/mockup_2.png) and [Contact](assets/images/mockups/mockup_3.jpg) pages are also available.
+instances. The various mock-ups also highlight parts of each page which relate to the user stories, e.g. newsletter, social media icons in the footer. Mock-ups for the [About](assets/images/mockups/mockup_2.png) and [Contact](assets/images/mockups/mockup_3.jpg) pages are also available.
 
 ![alt Mock up 1](assets/images/mockups/mockup_1.png "Mock Up 1")
 
