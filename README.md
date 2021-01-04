@@ -8,7 +8,7 @@ The purpose of this website is to provide information to potential customers and
 history of the Freeway Farmer's Market, and to advertise the general products, dates, times and location
 of the market, including upcoming events.
 
-Customers will know where and when to attend the market, how to contact the market coordinator,
+Customers will know when and where to attend the market, how to contact the market coordinator,
 what type of goods are available, when special events are taking place, and how to receive a newsletter.
 Potential vendors will be able to enquire about renting a stall at the market.
 
@@ -17,12 +17,12 @@ Potential vendors will be able to enquire about renting a stall at the market.
 
 #### **'Home' page**
 
-The homepage header contains an alert and button (link on mobile view) that leads potential vendors to
+The 'Home' page header contains an alert that draws the attention of potential vendors, and a button (or link on mobile view) that leads potential vendors to
 a form modal enabling them to enquire about renting a stall to sell goods at the market. The form
 contains name, phone and email fields, and a submit button. The alert/form is available on all 3 pages.
 
 This is a key feature for the client, as renting stalls ensures continuation of the business and the ability
-to pay rent for the market space.
+to pay rent for the market space. It also ensures more variety is available for customers.
 
 The navigation menu contains Home, About and Contact links (3-page website).
 
@@ -39,7 +39,7 @@ The footer contains the addresses for the market venue and office, as well as so
 This page contains the same header and footer information as the homepage. The body of the page
 contains the name of the market with a portion of the homepage main image as a background.
 
-Beneath the main image an 'About the Market' section displays text sections which outline the history of
+An 'About the Market' section displays text passages which outline the history of
 the market and provides details on what goods are for sale. Related images included.
 
 #### **'Contact' page**
@@ -47,9 +47,9 @@ the market and provides details on what goods are for sale. Related images inclu
 The contact page contains the same header and footer information as the homepage. The body of the
 page contains the name of the market with a portion of the homepage main image as a background.
 
-Beneath the main image a 'Contact Us' section displays name, address, phone and email information
+A 'Contact Us' section displays name, address, phone and email information
 beneath a 'Details' heading (left) and a 'Newsletter' email submission form and image (right). In mobile
-view the 'Newsletter' appears beneath the 'Details' and the image is removed.
+view the 'Newsletter' appears beneath the 'Details' and the image is removed. Clicking on the button currently resets the form field if an email address is entered.
 
 ### **Responsivity**
 
@@ -64,36 +64,35 @@ instances. Mock ups for the [About](assets/images/mockups/mockup_2.png) and [Con
 #### **Strategy Plane**
 
 The website is required to generate income for the client by promoting the market to both customers
-and vendors. The user’s needs are met, as the site provides relevant and accessible information.
+and vendors. The user’s needs are met, as the site provides relevant and accessible information, forms and links.
 
 #### **Scope Plane**
 
 Features available in the website include an alert that encourages potential vendors to contact the site
-owners at the click of a button. A newsletter can be easily subscribed to on the 'Contact' page. Social
+owners at the click of a button. A newsletter can be easily subscribed to on the 'Contact' page (currently resets the form, JS required). Social
 media icons (currently linking to the site's homepages) are available in the footer on all pages. Address
 and contact details are also available.
 
 #### **Structure Plane**
 
-The structure of the website is uncluttered and easily navigated. Users can navigate between the 3 site
+The structure of the website is uncluttered and easily navigated. Users can move between the 3 site
 pages via the navigation menu items. Ample opportunity is provided to contact the client, for example,
-via the alert button, the 'Contact' navigation menu link and a link to the 'Contact' page in the 'Upcoming
-Event' text. Social media links lead to the homepage of each site, but would lead to a business site if
-available for a live business. Address details are also provided in the footer.
+via the alert button, the 'Contact' navigation menu link address details in the footer. 
+Social media links are also available in the footer, currently leading to the homepage of each site (these would lead to active accounts if
+the business was live). 
 
 #### **Skeleton Plane**
 
 Wireframes were created to plan the initial layout of each webpage, detailing where each section,
-button and link would be placed. For example, it was determined that adding a form modal to an alert
-aimed at vendors may encourage them to apply to rent a stall moreso than if the alert was not present.
+button and link would be placed. For example, it was determined that adding a form modal to the alert
+aimed at vendors may encourage them to apply to rent a stall moreso than if the alert was not present, or if it was present without the button/link.
 Layout of text and images and how each site page would look at various sizes were also determined.
-Wireframes for the site are available below.
 
 #### **Surface Plane**
 
-The colour palette was chosen to reflect the enticing, fresh and vitality-based qualities of the product.
+The colour palette was chosen to reflect the enticing, fresh, vitality-based qualities of the products.
 The font families suit the theme of the website and product also. The images are dynamic and bright,
-and do not clash with the site colour palette.
+and do not clash with the site colour palette. The light background throughout adds to the fresh, light feel that suits the topic.
 
 ### **User Stories**
 
@@ -106,20 +105,21 @@ and do not clash with the site colour palette.
     information on the market and what it provides
 - I am able to easily enquire about selling at the market, or receive a newsletter should I wish to
     do so
-- I can view the site and navigate as expected on my mobile phone, tablet or laptop
+- I can view the site and navigate as expected on my mobile phone, tablet or laptop/desktop
 - I can access the related social media platforms provided
 
 #### **Returning User**
 
-- I can check what updated events are available, after previously noting this section on my initial
+- I can check what new updated events are available, after previously noting this section on my initial
     visit
 - I can subscribe to the newsletter, after previously noting where the subscription form is located
+- I know where to go to access the phone number/email addresses of the business owners
 
 #### **Frequent User**
 
 - I regularly check on upcoming events, and I also check to see if additional products have been
     added
-- I can apply to be a seller at the market as I know where the enquiry form is located and what
+- I can apply to be a seller at the market as I know the type of products usually sold there, where the enquiry form is located and what
     information is required
 
 ### **Design**
@@ -150,6 +150,7 @@ site are 'Dark Byzantium' #4D243D (aubergine) and 'Mindarc' #E9FF70 (light green
 
 The images on the site were sourced from [Unsplash](www.unsplash.com). Further details available in
 the Credits and Acknowledgments section.
+The images are not skewed or pixelated on the site. 
 
 #### **Typography**
 
@@ -161,17 +162,18 @@ Google Fonts as being compatible.
 
 - The navigation bar is presented as a toggle button in mobile view, and the user can click on it to
     reveal or conceal the navigation menu.
-- The alert contains a button that opens form modal where the user can enter their details as
-    requested, and press the 'Submit' button.
+- The alert contains a button that opens a form modal where the user can enter their details as
+    requested, and press the 'Submit' button. This is presented as a link in mobile view.
 - The 'About' page contains a newsletter submission button, preceded by an email address field.
 - The footer contains clickable social media links.
 
 #### **Future Features**
 
-- Confirmation message when user submits form modal (alert bar). JavaScript required.
-- Social media links to actual account related to the site/business.
+- Confirmation pop-up when user submits form modal (alert bar). JavaScript required
+- 'Subscribe to Newsletter' button currently does not send information, it resets the input field when clicked. JavaScript is required to send information and provide a confirmation pop-up
+- Social media links to actual account related to the site/business
 
-### **<u>Testing</u>**
+### **Testing**
 
 This is a static website so testing is limited to visual inspection, layout, link interaction, and compatibility
 with various browsers/devices/orientations.
@@ -187,11 +189,17 @@ with various browsers/devices/orientations.
 | Click on the navigation items        | Expected pages open  | Expected pages open  | Pass  |
 | Click on the toggle button and navigation buttons in mobile view       | Navigation items are displayed and expected pages open  | Navigation items are displayed and expected pages open  | Pass  |
 | Scroll to bottom of the screen        | No visual or technical issues  | No visual or technical issues  | Pass  |
-| Click on social link icons in footer        | Site homepage is displayed in its own browser page  | Site homepage is displayed in its own browser page  | Pass  |
+| Click on each social media link icon in footer        | Site homepage is displayed in its own browser page  | Site homepage is displayed in its own browser page  | Pass  |
 | In the ‘Contacts’ page, add email address to ‘Newsletter’ field        | Email address drop-down present, email address entered successfully  | Email address drop-down present, email address entered successfully  | Pass  |
+| In the ‘Contacts’ page, click on the 'Submit to Newsletter' button        | Field is reset, email address entered no longer present  | Field is reset, email address entered no longer present  | Pass  |
 | In the ‘Contacts’ page, click on the phone number(s)       | ‘Make a Call’ pop-up is displayed  | ‘Make a Call’ pop-up is displayed  | Pass  |
 | In the ‘Contacts’ page, click on the email address(es)        | Default email program is launched  | Default email program is launched  | Pass  |
 
+#### **Bug Fixes**
+
+A button is present in the alert at the top of each page, which leads to a form modal. At small device dimensions this button changes to a link. 
+There was an overlap on medium sized screens where the button and link were visible at the same time. 
+This bug was fixed using a media query in the CSS stylesheet.
 
 #### **Browser Compatability**
 
@@ -199,8 +207,8 @@ Tested with Chrome, Safari and Microsoft Edge. Compatible with each browser.
 
 #### **Device Compatability**
 
-Viewed on a variety of phones and tablets via the ‘Inspect’ tool in Chrome, Safari and Microsoft Edge.
-Compatible at portrait and landscape orientations. Also compatible on laptop/desktop.
+Viewed on a variety of phones and tablets via the ‘Inspect’ tool in Chrome, Safari and Microsoft Edge. Tested on ['Am I Responsive?'](http://ami.responsivedesign.is/) site.
+Compatible at portrait and landscape orientations. 
 
 ### **Validation**
 
@@ -257,7 +265,7 @@ Used to validate the CSS code of the website
 ### **Deployment**
 
 #### **Website Creation in Notepad++**
-The website was built offline in Notepad++ and copied to GitPod at various milestones.
+The website framework was built offline in Notepad++ and copied to GitPod at various milestones.
 
 #### **Website Build in GitHub and GitPod**
 
@@ -265,7 +273,7 @@ In GitHub, I logged in and clicked on the ‘New’ button in the left-hand menu
 I checked the ‘Include all branches’ tick-box. I entered ‘MilestoneProject-1’ in the ‘Repository Name’ field, left the radio button checked at ‘Public’, and clicked on the ‘Create Repository’ button. 
 
 Once in the new repository, I clicked on ‘GitPod’ in my browser extensions to open the workspace. The ‘index.html’ and ‘style.css’ files were created, with the CSS file being added to the ‘assets/css’ folder.
-Much of the code was initially created in Notepad++ then copied to GitPod. Images were added to the ‘assets/images’ folder. 
+Much of the code was initially created in Notepad++ then copied to GitPod. Site was updated using GitPod. Images were added to the ‘assets/images’ folder. 
 The following command was entered in the terminal to open port 8000 to view the html file in the browser: ‘python3 -m http.server’. 
 
 Commands were also used to add files, commit changes with comments, push to the repository: git add, git commit and git push. 
@@ -275,7 +283,7 @@ The status was checked using ‘git status’.
 
 In the MilestoneProject-1 repository on GitHub, I clicked on the ‘Settings’ tab and scrolled down to the
 GitHub Pages section. I chose ‘Master Branch’ and ‘Save’, then I clicked on the link to successfully view
-the live page.
+the live page. This link was also used for responsivity and validation checks.
 
 ### **Credits and Acknowledgements**
 
